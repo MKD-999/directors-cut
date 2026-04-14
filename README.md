@@ -1,17 +1,43 @@
-# DIRECTOR’S CUT 🎬
+# Director's Cut
 
-A cinematic film discovery platform that uses SVD (Singular Value Decomposition) to curate a personalized "Shortlist" based on user taste.
+**A curated discovery engine.**
 
-## 🎞️ The Concept
-Most movie recommenders feel like a data spreadsheet. **DIRECTOR’S CUT** is designed to feel like a high-end film studio’s internal tool. It moves away from the "Noir" aesthetic into a clean, high-contrast "Silver Screen" vibe.
+Stories that linger
 
-## ✨ Key Features
-* **The Search**: A minimalist entry point to find titles that "linger."
-* **The Collection**: A private vault where you rate and archive your cinematic history.
-* **Run the Final Cut**: A machine-learning process that analyzes your collection to generate a curated 12-movie "Shortlist."
+---
 
-## 🛠️ Technical Stack
-* **Frontend**: SvelteKit (Svelte 5) with custom WebGL shader backgrounds.
-* **Backend**: FastAPI (Python) implementing the SVD recommendation algorithm.
-* **Machine Learning**: Scikit-Learn / Surprise for latent factor analysis.
-* **Persistence**: LocalStorage for seamless browser-side data saving.
+### THE FRAMEWORK
+
+* **Search**: Identify titles that define a mood or feeling.
+* **The Collection**: A private archive to rate and track history.
+* **The Shortlist**: A hybrid engine that identifies patterns to project what is next.
+
+---
+
+### THE LOGIC
+
+The system is a hybrid recommender:
+1. **Semantic Layer**: Uses Cosine Similarity to identify content-based relationships.
+2. **Collaborative Layer**: Employs Collaborative Filtering to refine results based on collective user behavior.
+
+---
+
+### TECH STACK
+
+* **Frontend**: Svelte 5 / WebGL Shaders
+* **Backend**: FastAPI / Python
+* **ML**: Scikit-Learn / Surprise
+* **Persistence**: LocalStorage / Pickle Serialization
+
+---
+
+### SETUP
+
+**Backend**
+1. `pip install -r requirements.txt`
+2. `python recommender.py` (Process base model)
+3. `python main.py` (Start API)
+
+**Frontend**
+1. `npm install`
+2. `npm run dev`
