@@ -14,8 +14,8 @@
 ### THE LOGIC
 
 The system is a hybrid recommender which uses:
-1. **Semantic Layer**: Uses Cosine Similarity to identify content-based relationships.
-2. **Collaborative Layer**: Employs Collaborative Filtering to refine results based on collective user behavior.
+* **Semantic Layer**: Uses Cosine Similarity to identify content-based relationships.
+* **Collaborative Layer**: Employs Collaborative Filtering to refine results based on collective user behavior.
 
 ---
 
