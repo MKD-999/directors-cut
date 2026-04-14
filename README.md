@@ -2,21 +2,18 @@
 
 **A curated discovery engine.**
 
-Stories that linger
-
 ---
 
 ### THE FRAMEWORK
 
-* **Search**: Identify titles that define a mood or feeling.
-* **The Collection**: A private archive to rate and track history.
+* **The Collection**: A private archive to search for and rate movies you love.
 * **The Shortlist**: A hybrid engine that identifies patterns to project what is next.
 
 ---
 
 ### THE LOGIC
 
-The system is a hybrid recommender:
+The system is a hybrid recommender which uses:
 1. **Semantic Layer**: Uses Cosine Similarity to identify content-based relationships.
 2. **Collaborative Layer**: Employs Collaborative Filtering to refine results based on collective user behavior.
 
