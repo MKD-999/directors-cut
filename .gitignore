@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules/
+.svelte-kit/
+build/
+
+# Python environment & cache
+__pycache__/
+*.pyc
+.venv/
+env/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
