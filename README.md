@@ -1,6 +1,6 @@
 # Director's Cut
 
-**A curated discovery engine.**
+**Find stories that linger.**
 
 ---
 
