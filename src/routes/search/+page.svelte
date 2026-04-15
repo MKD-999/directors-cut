@@ -130,7 +130,7 @@
 
 <main>
   <nav style="display:flex; align-items:center; gap:40px; padding:30px 6%; border-bottom:1px solid #111; position:sticky; top:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(20px); z-index:50;">
-    <h1 onclick={() => goto("/")} class="visual-sans" style="cursor:pointer; font-size:1.1rem; letter-spacing:0.3em; margin:0;">CELLULOID</h1>
+    <h1 onclick={() => goto("/")} class="visual-sans" style="cursor:pointer; font-size:1.1rem; letter-spacing:0.3em; margin:0;">Director's Cut</h1>
     <input bind:value={query} onkeydown={(e) => e.key === 'Enter' && search(query)} placeholder="Search archive..." style="background:#0f0f0f; border:1px solid #222; padding:12px 25px; width:300px; border-radius:50px; color:white; outline:none; font-family:'Poppins';" />
     <button onclick={() => goto("/vault")} style="margin-left:auto; background:white; color:black; border:none; padding:10px 20px; border-radius:4px; font-weight:800; cursor:pointer; font-size:0.75rem; text-transform:uppercase; font-family:'Inter';">THE VAULT</button>
   </nav>
