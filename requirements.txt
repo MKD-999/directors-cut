@@ -4,3 +4,6 @@ pandas
 scikit-learn
 surprise
 python-dotenv
+
+CSV file of Letterboxd poster links
+CSV files from The Movies Dataset from Kaggle 
